@@ -14,6 +14,7 @@ x_string = "Hi! String"
 x_boolean = True
 
 
+
 # Setting the Specific Data Type
 x_str_specify = str("Hello World")
 x_int_specify = int(20)
@@ -47,3 +48,10 @@ myDictionay = {"name" : "John", "age" : 36}
 mySet = {"apple", "banana", "cherry"}
 
 print(type(x_str_specify))
+
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") 
+print type(x)
+print type(y)
+print type(z)
